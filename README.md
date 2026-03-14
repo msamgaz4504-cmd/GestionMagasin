@@ -1,24 +1,26 @@
-# GestionNotes
+# GestionMagasin
 
 ## Description
-Mini-projet Java pour gérer les notes d'une classe.  
-Permet de saisir les notes de 5 étudiants, calculer la moyenne, déterminer la meilleure note, compter les admis (note ≥ 10), et afficher les mentions (Passable, Bien, Excellent).
+Mini-projet Java pour gérer un magasin.  
+Permet d'ajouter des produits, gérer les ventes, afficher le stock et appliquer des alertes lorsque les produits sont en quantité faible.
 
 ## Fonctionnalités
-- Saisie interactive des notes via la console
-- Calcul automatique de la moyenne
-- Identification de la meilleure note
-- Comptage des étudiants admis
-- Affichage des mentions pour chaque étudiant
+- Ajout de nouveaux produits (nom, prix, quantité)
+- Affichage complet de la liste des produits avec valeur totale
+- Recherche d’un produit par nom
+- Réalisation d’une vente avec calcul du total et remise automatique si applicable
+- Gestion des alertes pour les stocks faibles (<5)
+- Sauvegarde et chargement automatique des données depuis un fichier `stock.txt`
 
 ## Exécution
 1. Ouvrir le projet dans **IntelliJ IDEA** ou tout IDE Java.
-2. Exécuter le fichier `GestionNotes.java`.
-3. Suivre les instructions dans la console pour saisir les notes.
+2. Exécuter le fichier `GestionMagasin.java`.
+3. Suivre les instructions dans la console pour interagir avec le programme.
 
 ## Technologies
 - Java 11 (ou supérieure)
 - Console input/output
+- Lecture et écriture de fichiers (`stock.txt`)
 
 ## Auteur
-**Meryem SAMGAZ**
+**Meryem SAMGAZ**  
